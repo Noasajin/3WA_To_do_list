@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let text = null;
     let input = document.getElementsByTagName('input');
     const check = document.getElementById('check');
-    let task = [{titre: '', id: 0}]
+    let task = []
     
     ///// FUNCTION ADD TEXT TO DOM
     const addTaskToDom = (element) => {
